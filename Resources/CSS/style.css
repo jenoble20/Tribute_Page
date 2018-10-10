@@ -1,1 +1,192 @@
 
+html{
+  display: flex;
+  justify-content: center;
+  background-color: #F5F6F0;
+}
+
+body{
+  width: 90%;
+  font-family: "noto sans jp";
+  font-size: 18px;
+}
+
+#title{
+  font-family: "Vidaloka";
+  font-size: 2.5rem;
+  padding: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+#subtitle{
+  font-family: "Vidaloka";
+  font-size: 1.3rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px){
+  body{
+    font-size: 16px;
+  }
+
+  #title{
+    font-size: 2rem;
+  }
+
+  #subtitle{
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  #title{
+    font-size: 1.8rem;
+  }
+
+  #subtitle{
+    font-size: 1rem;
+  }
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #97A5BD;
+}
+
+#img-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #F5F6F0;
+}
+
+#img-caption{
+  width: 70%;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.1rem;
+  padding: 0 1rem 1.5rem 1rem;;
+}
+
+img{
+  width: 75%;
+  max-width: max-content;
+  padding: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+#tribute-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding-top: 5rem;
+}
+
+#timeline{
+  width: 50%
+}
+
+#timeline li{
+  padding: 0.8rem 0.5rem;
+  margin: 0;
+  line-height: 1.2rem;
+  border-bottom: 1px solid #7C2F53;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease-in,
+              background-color 0.2s ease-in;
+}
+
+#timeline li:hover{
+  background-color: #6B7E9E;
+  box-shadow: 0 7px 10px -3px #47182E;
+}
+
+#timeline li p{
+
+}
+
+h2{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  color: #7C2F53;
+  text-decoration: underline;
+}
+
+strong{
+  font-size: 1.3rem;
+  color: #7C2F53;
+}
+
+@media only screen and (max-width: 800px){
+  h2{
+    text-align: center;
+  }
+
+  strong{
+    font-size: 1.1rem;
+  }
+
+  #timeline{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  h2{
+    font-size: 1.2rem;
+  }
+}
+
+#quote-div{
+  width: 50%;
+  background-color: #F5F6F0;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+#quote{
+  padding: 2rem;
+  text-align: center;
+}
+
+#source{
+  font-size: 0.9rem;
+  text-align: right;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+#reference{
+  width: 50%;
+  margin: 2rem 0rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#reference a{
+  color: #555126;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+}
+
+#reference a:hover{
+  color: #7C2F53;
+}
+
+@media only screen and (max-width: 800px){
+  #quote-div, #reference{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 430px){
+  #reference{
+    font-size: 0.77rem;
+  }
+}
