@@ -170,13 +170,13 @@ strong{
   text-align: center;
 }
 
-#reference a{
+#tribute-link{
   color: #555126;
   text-decoration: none;
   transition: color 0.5s ease-out;
 }
 
-#reference a:hover{
+#tribute-link:hover{
   color: #7C2F53;
 }
 
