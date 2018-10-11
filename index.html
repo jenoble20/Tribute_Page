@@ -4,25 +4,34 @@
     <meta charset="utf-8">
     <title>Norman Borlaug</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--STYLESHEETS/FONTS-->
     <link rel="stylesheet" type="text/css" href="Resources/CSS/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Vidaloka" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Resources/CSS/style.css">
   </head>
 
   <body>
+    <!--ALL CONTENT ON THE PAGE IS CONTAINED WITHIN A SINGLE CONTAINER-->
     <main id="main">
+      <!--TITLE (THE SUBJECT'S NAME) AND A SUBTITLE-->
       <h1 id="title">Dr. Norman Borlaug</h1>
       <p id="subtitle">The man who saved a billion lives</p>
 
+      <!--DIV CONTAINING AN IMAGE AND A CAPTION-->
       <div id="img-div">
-        <img id="image" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg">
-        <p id="img-caption">Dr. Norman Borlaug, second from left, trains biologists in Mexico
-           on how to increase wheat yields - part of his life-long war on hunger.</p>
+        <figure>
+          <img id="image" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="Image of Dr. Borlaug and biologists.">
+          <figcaption id="img-caption">Dr. Norman Borlaug, second from left, trains biologists in Mexico
+            on how to increase wheat yields - part of his life-long war on hunger.
+          </figcaption>
+        </figure>
       </div>
 
+      <!--LIST, ORDERED CHRONOLOGICALLY, OF SUBJECTS'S ACHIEVEMENTS-->
       <div id="tribute-info">
         <h2>Here's a timeline of Dr. Borlaug's life</h2>
-        <ul id="timeline">
+        <ul id="timeline" role="presentation">
           <li><strong>1914</strong> - Born in Cresco, Iowa
           </li>
           <li><strong>1933</strong> - Leaves his family's farm to attend
@@ -91,18 +100,24 @@
           </li>
           <li><strong>2009</strong> - Dies at the age of 95.
         </ul>
-        <div id="quote-div">
-          <p id="quote">"Borlaug's life and achievement are testimony to the far-reaching
-             contribution that one man's towering intellect, persistence and scientific
-             vision can make to human peace and progress."</p>
-          <p id="source">-- <em>Indian Prime Minister Manmohan Singh</em></p>
       </div>
-        <p id="reference">If you have time, you should read more about this
-                          incredible human being on his
-                          <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Norman_Borlaug">Wikipedia entry</a>.</p>
+
+      <!--QUOTE FROM INDIAN PRIME MINISTER-->
+      <div id="quote-div">
+        <p id="quote">"Borlaug's life and achievement are testimony to the far-reaching
+           contribution that one man's towering intellect, persistence and scientific
+           vision can make to human peace and progress."</p>
+        <p id="source">-- <em>Indian Prime Minister Manmohan Singh</em></p>
       </div>
+
+      <!--LINK TO WIKIPEDIA ARTICLE ABOUT SUBJECT-->
+      <p id="reference">Read more about
+                      <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Norman_Borlaug">Dr. Norman Borlaug</a>
+                      on his Wikipedia page.</p>
     </main>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" type="text/javascript">
+
+    <!--SCRIPTS-->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
